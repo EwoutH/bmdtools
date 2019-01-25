@@ -2,10 +2,12 @@ language: cpp
 
 os:
  - linux
- - osx
+# - osx
 
 compiler:
-  - clang
+#  - clang
   - gcc
+
+install: wget https://libav.org/releases/libav-12.3.tar.xz & tar -xvf libav-12.3.tar.xz
 
 script: make install
