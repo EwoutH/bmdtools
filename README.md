@@ -1,4 +1,4 @@
-## BlackMagic devices tools
+## BlackMagic devices tools [![Travis Build Status](https://travis-ci.org/lu-zero/bmdtools.svg?branch=master)](https://travis-ci.org/lu-zero/bmdtools)
 
 Initially developed as an example integration between libavformat and the
 bmd sdk, it ended up being a set of useful tools to use the BlackMagic Devices
