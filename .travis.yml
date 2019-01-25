@@ -11,6 +11,9 @@ compiler:
 install: 
  - wget https://libav.org/releases/libav-12.3.tar.gz
  - tar -xvf libav-12.3.tar.gz
- - PATH=$PATH:/data/myscripts
+ - cd libav-12.3
+ - make
+ - PATH=$PATH:$CD
+ - cd ..
 
 script: make install
