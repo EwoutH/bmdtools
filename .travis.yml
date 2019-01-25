@@ -8,6 +8,9 @@ compiler:
 #  - clang
   - gcc
 
-install: wget https://libav.org/releases/libav-12.3.tar.xz & tar -xvf libav-12.3.tar.xz
+install: 
+ - wget https://libav.org/releases/libav-12.3.tar.gz
+ - tar -xvf libav-12.3.tar.gz
+ - PATH=$PATH:/data/myscripts
 
 script: make install
